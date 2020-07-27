@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Preloader from '../layout/Preloader';
-import LogItem from './LogItem';
+import Preloader from "../layout/Preloader";
+import LogItem from "./LogItem";
 
 const Logs = () => {
   const [logs, setLogs] = useState([]);
@@ -31,7 +31,7 @@ const Logs = () => {
       {!loading && logs.length === 0 ? (
         <p className='center'>No logs to show...</p>
       ) : (
-        logs.map((log) => <LogItem log={log} key={log.id}/>)
+        logs.map((log) => <LogItem log={log} key={log.id} />)
       )}
     </ul>
   );
