@@ -8,7 +8,7 @@ const EditLogModal = () => {
 
   const onSubmit = () => {
     if(message === '' || tech === '') {
-        M.toast({html: 'Please Enter a message and select a technician'})
+        M.toast({html: 'Please enter a message and select a technician'})
     } else {
         console.log(message, tech, attention);
 
