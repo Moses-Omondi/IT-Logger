@@ -48,24 +48,14 @@
       "lastName": "Mwanisi"
     },
     {
-      "id": 3,
-      "firstName": "Janice",
-      "lastName": "Orlando"
-    },
-    {
       "firstName": "Moses",
       "lastName": "Omondi",
+      "id": 3
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Orlando",
       "id": 4
-    },
-    {
-      "firstName": "Justus",
-      "lastName": "Mdibo",
-      "id": 5
-    },
-    {
-      "firstName": "Stefan",
-      "lastName": "Olekiyapi",
-      "id": 6
     }
   ]
 }
