@@ -21,6 +21,7 @@
     "start": "react-scripts start",
     "json-server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,7 +44,10 @@
   "devDependencies": {
     "@types/materialize-css": "^1.0.8",
     "concurrently": "^5.2.0",
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "@babel/core": "^7.10.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "4.42.0"
   },
   "proxy": "http://localhost:5000"
 }
