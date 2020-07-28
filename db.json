@@ -27,6 +27,13 @@
       "tech": "William Mwanisi",
       "date": "2020-07-27T23:37:46.470Z",
       "id": 4
+    },
+    {
+      "message": "New computer formatting",
+      "attention": true,
+      "tech": "Moses Omondi",
+      "date": "2020-07-28T10:13:04.766Z",
+      "id": 5
     }
   ],
   "techs": [
@@ -49,6 +56,16 @@
       "firstName": "Moses",
       "lastName": "Omondi",
       "id": 4
+    },
+    {
+      "firstName": "Justus",
+      "lastName": "Mdibo",
+      "id": 5
+    },
+    {
+      "firstName": "Stefan",
+      "lastName": "Olekiyapi",
+      "id": 6
     }
   ]
 }
