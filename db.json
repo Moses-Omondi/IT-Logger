@@ -2,24 +2,31 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed faulty drive on workstation 008",
+      "message": "Lab computer 005 ram changed",
       "attention": false,
-      "date": "05-10-2020",
-      "tech": "Daniel Otieno"
+      "tech": "William Mwanisi",
+      "date": "2020-07-28T02:04:22.032Z"
     },
     {
       "id": 2,
-      "message": "Workstation not updating",
-      "attention": true,
-      "date": "08-10-2020",
-      "tech": "William Mwanisi"
+      "message": "Fixed Head of Department's Computer",
+      "attention": false,
+      "tech": "Daniel Orlando",
+      "date": "2020-07-28T01:19:41.542Z"
     },
     {
       "id": 3,
-      "message": "Department computer slagging",
+      "message": "New computers need windows update",
+      "attention": true,
+      "tech": "Daniel Otieno",
+      "date": "2020-07-28T01:18:28.990Z"
+    },
+    {
+      "message": "Order keyboard parts for Acer laptop",
       "attention": false,
-      "date": "11-10-2020",
-      "tech": "Janice Orlando"
+      "tech": "William Mwanisi",
+      "date": "2020-07-27T23:37:46.470Z",
+      "id": 4
     }
   ],
   "techs": [
