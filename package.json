@@ -2,9 +2,6 @@
   "name": "it-logger",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.5.0"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -46,10 +43,7 @@
   "devDependencies": {
     "@types/materialize-css": "^1.0.8",
     "concurrently": "^5.2.0",
-    "json-server": "^0.16.1",
-    "@babel/core": "^7.10.5",
-    "babel-loader": "^8.1.0",
-    "webpack": "4.42.0"
+    "json-server": "^0.16.1"
   },
   "proxy": "http://localhost:5000"
 }
