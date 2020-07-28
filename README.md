@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App]. It is a fullstack app with a fake api as backend.
+### IT-LOGGER
+
+This project was bootstrapped with [Create React App]. It is a fullstack app with a fake api as backend. The app logs IT issues and technicians who can resolve them.
 
 ## Available Scripts
 
